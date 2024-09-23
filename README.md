@@ -5,7 +5,7 @@ Warning: Don't test this one on your system or non-removel battery Mobile phone.
 
 
 
---> How to us on Termux; Follow this steps;
+--> How use on Termux; Follow this steps;
 
 $ pkg update && upgrade
 
@@ -27,7 +27,7 @@ $ python3 browserworm.py
 
 
 
---> How to us on Kali Linux; Follow this steps;
+--> How use on Kali Linux; Follow this steps;
 
 * Open terminal or press "ctrl + alt + t"
 $ cd Destop

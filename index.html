@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>127.0.0.1:4444</title>
+    <style>
+        /* Body styling */
+        body {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-size: 3px;
+            font-weight: 1px;
+        }
+
+        /* Typing text styling */
+        .typing-text {
+            font-size: 4em;
+            letter-spacing: 5px;
+            color: lime;
+            font-family: monospace;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 5px solid lime;
+            /* Adjust the animation duration and steps according to text length */
+            animation: typing 4s steps(28, end), blink-caret 0.75s step-end infinite;
+        }
+
+        /* Typing animation */
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 24%; }
+        }
+
+        /* Cursor blink animation */
+        @keyframes blink-caret {
+            from, to { border-color: transparent; }
+            50% { border-color: lime; }
+        }
+    </style>
+</head>
+<body>
+    <h4 class="typing-text">Waiting to server request!!!</h4>
+
+    <script>
+  var x = 0;
+        for (var i = 10; i >= x ; i++) {
+            //change to "<" To safe
+            console.log(i);
+        }
+   </script>
+
+</body>
+</html>
